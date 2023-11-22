@@ -18,3 +18,25 @@ Programming work as part of Big Data Course
 8.) Basic Kernel for Set Similarity Join (Prefix, Size, Positional filters)
 
 9.) Controlled Replica Algorithm for Spatial Multiway Join
+
+**********
+Execution
+**********
+
+1.) Hadoop setup in standalone/pseudo-distributed/cluster mode
+
+2.) Compile
+******************************************
+hadoop com.sun.tools.javac.Main <JavaFile>
+******************************************
+
+3.) Make Jar
+**************************************
+jar cf <JarName>.jar <All Class Files>
+**************************************
+
+4.) Run Command
+***************************************************************
+hadoop jar <JarName>.jar <ClassWithMainMethod> <input> <output>
+***************************************************************
+
